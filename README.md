@@ -4,6 +4,14 @@
 
 &emsp;参考链接：[从零开始开发一个vue组件打包并发布到npm (把vue组件打包成一个可以直接引用的js文件)](https://www.cnblogs.com/yalong/p/10388384.html)
 
+### Note Log
+
+> 2020-8-24
+
+1. 实现基础发版（已完成）
+2. 需要重新更改版本名称（待完善）
+3. 完善包内容（待完善）
+
 ### Vue README
 
 > A Vue.js project

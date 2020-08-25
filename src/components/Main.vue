@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'yyl-npm-practice',
+  name: 'main',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

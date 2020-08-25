@@ -2,7 +2,9 @@
 
 &emsp;用于测试 npm 发版过程
 
-&emsp;参考链接：[从零开始开发一个vue组件打包并发布到npm (把vue组件打包成一个可以直接引用的js文件)](https://www.cnblogs.com/yalong/p/10388384.html)
+&emsp;参考链接：
+1. [从零开始开发一个vue组件打包并发布到npm (把vue组件打包成一个可以直接引用的js文件)](https://www.cnblogs.com/yalong/p/10388384.html)
+2. [web前端: Vue cli3 库模式搭建组件库并发布到 npm](https://www.jianshu.com/p/72d303449abc)
 
 ### Note Log
 
@@ -16,7 +18,7 @@
 
 > A Vue.js project
 
-## Build Setup
+#### Build Setup
 
 ``` bash
 # install dependencies

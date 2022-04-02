@@ -8,8 +8,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'npm-build.js',
-    library: 'npm-build',
+    filename: 'public-npm.js',
+    library: 'public-npm',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
@@ -61,8 +61,9 @@ module.exports = {
   },
   performance: {
     hints: false
-  }
+  },
   // devtool: '#eval-source-map'
+  plugins: [] 
 }
 
 if (process.env.NODE_ENV === 'production') {

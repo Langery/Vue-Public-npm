@@ -5,7 +5,7 @@
   "author": "Langery <1245066197@qq.com>",
   "license": "MIT",
   "private": false,
-  "main": "./dist/npm-build.js",
+  "main": "./dist/public-npm.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

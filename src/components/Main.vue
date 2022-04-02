@@ -2,6 +2,9 @@
   <div class="container">
     <div>{{msg}}</div>
     <div>{{propData}}</div>
+    <div>
+      <img :src="image" />
+    </div>
   </div>
 </template>
 
@@ -10,7 +13,8 @@ export default {
   name: 'main',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      image: require('../assets/logo.png')
     }
   },
   props: {
